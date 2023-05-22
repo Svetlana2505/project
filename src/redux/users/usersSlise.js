@@ -1,5 +1,5 @@
-import { fetchUsers, addUsers } from './users-operations';
-import { createSlice, isAnyOf } from '@reduxjs/toolkit';
+import { fetchUsers } from './users-operations';
+import { createSlice } from '@reduxjs/toolkit';
 
 const usersSlice = createSlice({
   name: 'users',
