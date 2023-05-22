@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.js": "/project/static/js/main.4c590d92.js",
+    "static/media/desktop@2x.jpg": "/project/static/media/desktop@2x.aa78c2570f904276c0d6.jpg",
+    "static/media/tablet@2x.jpg": "/project/static/media/tablet@2x.0eceea646a88197be193.jpg",
+    "static/media/phone@2x.jpg": "/project/static/media/phone@2x.24d1cc82ee8be1d58482.jpg",
+    "static/media/desktop.jpg": "/project/static/media/desktop.119ca3a00d8bdeeb58c3.jpg",
+    "static/media/tablet.jpg": "/project/static/media/tablet.54ba81f298ac55437fc4.jpg",
+    "static/media/success-image.svg": "/project/static/media/success-image.45e9abfaf490994a79bb828b21a29c28.svg",
+    "static/media/phone.jpg": "/project/static/media/phone.d394c9b96d2e89c3814b.jpg",
+    "static/media/Logo.svg": "/project/static/media/Logo.373f6ca26c3feb8e2a5c959d295fdc56.svg",
+    "index.html": "/project/index.html",
+    "main.4c590d92.js.map": "/project/static/js/main.4c590d92.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.4c590d92.js"
   ]
 }
