@@ -1,12 +1,12 @@
-import { FormLabel, RadioGroup, FormControlLabel, Radio } from "@mui/material";
-import { useSelector } from "react-redux";
-import { selectPositions } from "../redux/selectors";
-import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
-import { fetchPositions } from "../redux/positions/position-operations";
+import { FormLabel, RadioGroup, FormControlLabel, Radio } from '@mui/material';
+import { useSelector } from 'react-redux';
+import { selectPositions } from '../redux/selectors';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { fetchPositions } from '../redux/positions/position-operations';
 
 export const FormPosition = ({ register }) => {
-  const [value, setValue] = useState("");
+  // const [value, setValue] = useState("");
   const dispatch = useDispatch();
   const positions = useSelector(selectPositions);
 
@@ -15,7 +15,7 @@ export const FormPosition = ({ register }) => {
   }, [dispatch]);
 
   return (
-    <FormLabel sx={{ color: "rgba(0, 0, 0, 0.87)" }}>
+    <FormLabel sx={{ color: 'rgba(0, 0, 0, 0.87)' }}>
       Select your position
       <RadioGroup>
         {positions &&
@@ -25,13 +25,12 @@ export const FormPosition = ({ register }) => {
               value={id}
               control={
                 <Radio
-                  onChange={() => setValue(id)}
-                  {...register("position")}
+                  {...register('position')}
                   size="small"
                   sx={{
-                    color: "#D0CFCF",
-                    "&.Mui-checked": {
-                      color: "#00BDD3",
+                    color: '#D0CFCF',
+                    '&.Mui-checked': {
+                      color: '#00BDD3',
                     },
                   }}
                 />
